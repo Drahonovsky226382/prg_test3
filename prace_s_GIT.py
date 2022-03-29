@@ -11,6 +11,8 @@ def is_even_number(number):
 
 
 
+s = 0
+
 my_number = 9
 print(is_whole_number(my_number))
 print(is_even_number(my_number))
