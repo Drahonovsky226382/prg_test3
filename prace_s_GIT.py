@@ -1,10 +1,8 @@
 def is_whole_number(number):
-    if number == int(number):
-        vystup = True
-    else:
-        vystup = False
+    if number % 1 == 0 and number > 0:
+        return True
 
-    return vystup
+    return False
 
-my_number = 11
+my_number = 12
 print(is_whole_number(my_number))
